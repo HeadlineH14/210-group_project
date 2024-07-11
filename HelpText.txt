@@ -1,0 +1,31 @@
+Thank you for using our paint program!
+
+Features:
+	High resolution full color and transparency drawing program
+	Multiple layers that you can show/hide/delete
+	Multiple tabs with independent editors in
+	14 tools including fill tool, shapes, rubber and brushes
+	Undo and redo functionality for each layer
+	Adjustable brush thickness and color
+	Menu system with image file support (Save, Save As, Open) for many file types
+	Intuitive user interface with seperate panels and highlighting for active tool/layer
+	Resizeable canvas
+
+Help:
+ * Basic editor use
+      Move the red, green, blue and transparency sliders to choose the color, select a tool and drag to draw!
+ * File operations
+	New - Creates an empty canvas
+	Save - Overwrites the currently open file on disk
+	Save as - Choose where to save the image being edited
+	All layers of the drawing are merged together and saved as a single image file
+ * Layers and transparency
+      To create a new layer, press the "New Layer" button in the bottom right of the editor window. The currently open layers are listed vertically along the right side of the editor window. To select which layer is being edited, click on it. Layers will be combined into one complete image when saving. You can hide or delete the currently selected layer using the "Hide/Show Layer" and "Delete Layer" buttons.
+ * Tabs
+	Multiple editor windows are able to be opened at the same time using tabs. To select the current tab, click on it.
+ * Undo and Redo
+	Press the undo and redo buttons, or use the menu items Undo and Redo
+ * Drawing
+	Hold and drag the mouse around the canvas to draw.
+ * Shape tools
+	Press the mouse to mark the first corner of a shape, drag to the opposite corner and release to draw the shape. You can change the brush thickness of shape tools using the slider

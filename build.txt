@@ -1,0 +1,8 @@
+To build the program, run the following
+	javac *.java
+
+To run the program., run the following
+	java Drawing
+
+For build then run, run the following
+	javac *.java && java Drawing

@@ -1,0 +1,902 @@
+commit 906ac788cf30b3dd6fe17fb44649bbc6edc37f06
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Mar 7 16:39:14 2023 +0000
+
+    Removed redundant tools, update help text and instructions
+
+commit 36b2ba2d3a6e45147d61c4d3d3ed3c8491147b07
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Mar 7 15:39:27 2023 +0000
+
+    Improve the layout of layer selector buttons
+
+commit 7cfecb3390607c6c3c86ffde556f841742f24414
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Mar 7 14:36:24 2023 +0000
+
+    Made flood fill work correctly using queue and hashset for position history
+
+commit 7ae3f6a9564bf8d5574d5f59047e4c746fca7554
+Author: sam <sam.mayhew@live.com>
+Date:   Sun Mar 5 22:04:10 2023 +0000
+
+    added java documentation comments to all the files, except all the variations on the Tool.java class
+
+commit b9ff05f992428e6a47ecb4d746f08f6aa630e88f
+Author: James Sharrock <jamessharrock65@gmail.com>
+Date:   Tue Feb 21 20:40:12 2023 +0000
+
+    FillTool Queue Implemented: In Progress
+
+commit 05e0ae484f0a295085b1eef5be636ed669cd4b89
+Author: jonesh19 <h.jones20@lancaster.ac.uk>
+Date:   Fri Feb 17 15:45:28 2023 +0000
+
+    removed useless code
+
+commit 51907668f3ce3a5e1472675fdfa393c9971935cd
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Fri Feb 17 14:44:27 2023 +0000
+
+    added it so resize box dispears after ok it clicked
+
+commit 7160fc10ebf4903298f7b8908d9dd38c6e19a9d6
+Author: sam <sam.mayhew@live.com>
+Date:   Thu Feb 16 22:20:18 2023 +0000
+
+    added functionality for the bucket fill tool. it fill in shapes, but has a bit of buggs when filling in the whole background. but the tool under neith, the kind of square with lines is it, does that
+
+commit 6a993ffa3ed8bb6da34c977b0f7e2300b666745e
+Author: jonesh19 <h.jones20@lancaster.ac.uk>
+Date:   Thu Feb 16 18:49:14 2023 +0000
+
+    got the resize working with help from sam
+
+commit aa73ab171e5d4513fddf0550164edd288dffb0c7
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Fri Feb 10 15:42:32 2023 +0000
+
+     mdae it so that the resize is not up to date and the errors are gone
+
+commit dec821d35eb7373ea9e42fe63f83cb004447a819
+Author: sam <sam.mayhew@live.com>
+Date:   Fri Feb 10 15:25:10 2023 +0000
+
+    fixed 86 error. noting to worry about :)
+
+commit 8c305e8ba9e68857e638f98561bc9b3977d5c19a
+Merge: a25a9ee 9f7b711
+Author: sam <sam.mayhew@live.com>
+Date:   Fri Feb 10 15:02:53 2023 +0000
+
+    added functionality for hidding and showing layers
+
+commit a25a9ee17d159e70cf9d97fa1a11a2e1b5db3d12
+Author: sam <sam.mayhew@live.com>
+Date:   Fri Feb 10 14:58:33 2023 +0000
+
+    created the GUI and functionality for hiding and showing layers
+
+commit 9f7b71183d6ca3a93a3060c4e06039a1e6c60f1c
+Merge: 2b9dd1d 95283b3
+Author: James Sharrock <jamessharrock65@gmail.com>
+Date:   Fri Feb 10 14:58:03 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52
+
+commit 2b9dd1d6b4e186a4c2bfaf2bc5898a9faa24a04b
+Author: James Sharrock <jamessharrock65@gmail.com>
+Date:   Fri Feb 10 14:56:59 2023 +0000
+
+    Features: SquareTool, CircleTool
+
+commit 95283b3c4416dc0df48994feeddd6315d052f729
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 10 14:15:17 2023 +0000
+
+    Removed javafx import, now compiles correctly
+
+commit 689045043831d428da9719db52c8c75986904def
+Author: jonesh19 <h.jones20@lancaster.ac.uk>
+Date:   Thu Feb 9 18:33:44 2023 +0000
+
+    tried to make resize work but isnt updating panels
+
+commit 5197b5cb0cae6bf93dc4d3cafa730dd6267df771
+Merge: 1f45bff 0b6c759
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Mon Feb 6 22:35:30 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52
+
+commit 1f45bffac5251fe1d46d69968b07260ae261f03c
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Mon Feb 6 22:34:44 2023 +0000
+
+    tired to make it so resize works but still needs trouble shooting
+
+commit 0b6c75934e4a6d84f76c1371d342d976355d57ba
+Author: Gardner <gardne19@vdi-scclab-014.lancs.local>
+Date:   Mon Feb 6 22:24:00 2023 +0000
+
+    Changed comments on semicircle tools
+
+commit 476715f61b140d26b31d3226c3799d39898c1fb1
+Author: Gardner <gardne19@vdi-scclab-014.lancs.local>
+Date:   Mon Feb 6 22:16:27 2023 +0000
+
+    Changed the canvas class so that all tools can be clicked and dragged. Not all tools can be tragged now such as line tools, shape tools and fill tools
+
+commit 77193a52eeb45c367a03f394705a948a48a6f142
+Author: Gardner <gardne19@vdi-scclab-014.lancs.local>
+Date:   Mon Feb 6 22:07:17 2023 +0000
+
+    Added a semi circle tool and outlines to the existing shapetools. Added new icons. Added new tools to tool picker and canvas mousepressed
+
+commit 256cc9829f579746aac3bcceb2b369272c90b9d1
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Feb 6 17:38:42 2023 +0000
+
+    Rename color picker labels
+
+commit 76814fd51a9512fd013d9d7c0d1625c930f25af3
+Author: sam <sam.mayhew@live.com>
+Date:   Mon Feb 6 16:49:10 2023 +0000
+
+    added multiple tabs
+
+commit 79f61440966ed0b4b9c9de54f8b66b7ef7069d17
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Sat Feb 4 01:56:27 2023 +0000
+
+    same
+
+commit 3f3788513632c064735f8439b7f289d0ef291d60
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Sat Feb 4 01:53:12 2023 +0000
+
+    Improve code consistency
+
+commit ffff79d03cf6e5b18813be53cf198ddf0b0f2d2d
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Sat Feb 4 01:28:42 2023 +0000
+
+    Fix too many layer detection
+
+commit b1a32358cd2e6337b11342644b2cf968a5adcc98
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 20:56:29 2023 +0000
+
+    Fix drawing connecting from mouse released position to new mouse position
+
+commit d1f3697605d5b4a0ad6b1b2cae63ee7919adf378
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 20:36:45 2023 +0000
+
+    Make the rubber tool work properly instead of just painting with a white brush
+
+commit 6b08bfdf468921a1397e2e77acbba627d701e25b
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 20:32:10 2023 +0000
+
+    Adjust line and dashed line tools to have variable stroke width
+
+commit 36017cac58c737fdd7f104ef67265d6684ffc2ce
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 20:21:34 2023 +0000
+
+    Make layer deletion work, with layer buttons and canvases correctly updating, and the selected layer being changed to the next existing layer
+
+commit 887c3a80b813fc2d27367161787917948fb29b24
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 18:44:23 2023 +0000
+
+    remove class files
+
+commit 77e169f5abb41ea624ddafc63d12cd206dc540c1
+Merge: 1f299e6 3a23326
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 18:42:21 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52 into main
+
+commit 1f299e62620c5bf2937f58567f9ad684d971a5cf
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 18:40:57 2023 +0000
+
+    Display a transparent checkerboard pattern behind all layers, called BackgroundCanvas. Fix Canvas constructor for opening an image
+
+commit 3a2332621dddc6887bd215153b7b1c3e184b9359
+Merge: a936849 cb15fc0
+Author: Gardner <gardne19@vdi-scclab-001.lancs.local>
+Date:   Fri Feb 3 18:10:13 2023 +0000
+
+    Added instanceof rectangle tool and oval tool to the mousePressed if statement
+
+commit a936849747ac57558b03dd930b05b18f8df59801
+Author: Gardner <gardne19@vdi-scclab-001.lancs.local>
+Date:   Fri Feb 3 18:01:45 2023 +0000
+
+    changed shapetools so it doesnt use getcoord functions
+
+commit cb15fc00fa9fe5636707bcf2fa25e0ca32586d6a
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 17:56:29 2023 +0000
+
+    Added oval tool icon
+
+commit 327e1007bcaa3e3238478fea7bec4e462c1d665f
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 17:52:10 2023 +0000
+
+    Rectangle tool class has been changed to extend the shapetools class.
+
+commit 79e0af824d0142366a2f0f4dadede15277fdf6b0
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 17:51:25 2023 +0000
+
+    Created an ovaltool class that extends the shapetools class, draws ovals and circles in a similar way to the line tool
+
+commit 0b9cfe7e8e58041b163b15efe57cc93a00445931
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 17:50:21 2023 +0000
+
+    Created shapetools class which is a parent class for shape based tools- take most of the code from rectangle with some replaced with abstract functions to be used for other shapes.
+
+commit a2b8995398e3ac485df59d9589b4a90acdff6f5e
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 17:47:34 2023 +0000
+
+    Added rectangle tool and oval tool to the toolpicker
+
+commit 9069bd08c692a2cad074e664077a30e842358aeb
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 17:28:03 2023 +0000
+
+    Create InputCanvas to sit ontop of all other canvases, capture MouseEvent s and propagate them to the currently selected canvas. Make all canvases transparent, and set their Z order to their position in the layers array when they are created
+
+commit 9c1de6ad150fb84715b77660d261f0adbd41ab5b
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 16:22:50 2023 +0000
+
+    fix small bugs in resize and menu that stopped code from compiling
+
+commit 0b34190043a7d7e1cb9db24575038c209ad42725
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Fri Feb 3 15:55:32 2023 +0000
+
+    fix merge
+
+commit 6a4c1893b546502aadf5a3ed6e4cd7c5f19f8aed
+Merge: 18bfa18 2df5377
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Fri Feb 3 15:52:46 2023 +0000
+
+    merged
+
+commit 18bfa18e1cb59fec492d6acf72f5079023b47650
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Fri Feb 3 15:50:51 2023 +0000
+
+    added resise menu need to get the values from the text areas and update all panels after
+
+commit 2df5377138e00308d1d7ce543c41ef19f5f9c6e0
+Author: sam <sam.mayhew@live.com>
+Date:   Fri Feb 3 15:42:35 2023 +0000
+
+    stried having different pic extensions. had astroke
+
+commit 273425e4b3166abdcdfad3e75abfa46f4bfce7f8
+Merge: 8059191 05681ac
+Author: sam <sam.mayhew@live.com>
+Date:   Fri Feb 3 15:12:53 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52
+
+commit 8059191b471f5e009ab3904ef63776b661d80046
+Author: sam <sam.mayhew@live.com>
+Date:   Fri Feb 3 15:12:00 2023 +0000
+
+    fixed the bug with the line tool and mutiple layers. thid did make it so only one layer can be displayed at once, at least all the layers aren't redrawn onto a single layer when you switch betweent them :)
+
+commit 05681ac3844fd3d0042f0e907374d24d718252ed
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 15:07:39 2023 +0000
+
+    Created a rectangle tool, to draw solid colour rectangles on the screen. Works similarly to the line tool
+
+commit 8d5fd958d09b4d92c4b68becfaf788bf0559134b
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 15:07:00 2023 +0000
+
+    Added rectangle tool to the tool picker class
+
+commit 106913ffc5134ba8a690f4238787e33f60fc52ec
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 15:06:06 2023 +0000
+
+    Added an icon for the rectangle tool
+
+commit 888eac22a3a0c57a991c9f44546e7781531ef3a2
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Feb 3 15:05:41 2023 +0000
+
+    Corrected a comment
+
+commit d077ae1e6da36fe9bef55dd1ce6c305c646e51bb
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Feb 2 18:20:57 2023 +0000
+
+    Show save as dialogue if save pressed with no previous image file opened, change open dialogue to save dialogue for save as feature
+
+commit fb1d4aa93e98cb3e0db3bb1d6ddbd6ff05dcfbb6
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Feb 2 18:09:36 2023 +0000
+
+    Fix bug with active layer introduced when improving add layer functionality
+
+commit c65e938af84ed5301e3e7e6074c9a4cf86fade88
+Merge: a1fd71c 468a661
+Author: Benetti Milagres <benettim@vdi-scclab-026.lancs.local>
+Date:   Thu Feb 2 14:54:25 2023 +0000
+
+    merge
+
+commit a1fd71c80705c9e1d6831ac105c5b25ae8e3e70c
+Author: Benetti Milagres <benettim@vdi-scclab-026.lancs.local>
+Date:   Thu Feb 2 14:52:04 2023 +0000
+
+    remove layer function not working yet but program doesn't crash
+
+commit 468a661dea6b90f1ca698bfaa821a0bbb1f19448
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Feb 2 14:42:35 2023 +0000
+
+    When a new layer is added, update the layer selector button's color
+
+commit b9a0caeb4a6cd0dd7003b5d525dfb4ab5747a8fc
+Author: Benetti Milagres <benettim@vdi-scclab-026.lancs.local>
+Date:   Thu Feb 2 14:02:06 2023 +0000
+
+    Fixed bugs caused by previous commit
+
+commit 8e8b417dd0f4c6243fabebe6d1168f08f267a7e4
+Author: Benetti Milagres <benettim@vdi-scclab-026.lancs.local>
+Date:   Thu Feb 2 13:49:08 2023 +0000
+
+    Load option changed to "Open" and is now working
+
+commit 50249e1cf12b1542453db2934f46ce5773b26cc5
+Author: James Sharrock <jamessharrock65@gmail.com>
+Date:   Wed Feb 1 21:05:45 2023 +0000
+
+    BugFix: Mistaking lines for dots and vice versa.
+
+commit ea20a5a1d3fbfd284b6f749a068c82c9ea2ce7b0
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 18:38:49 2023 +0000
+
+    Created and added dashed line tool.
+
+commit d9f9b0a8f4a824131eec231d4faeabf820b3f921
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 18:38:08 2023 +0000
+
+    Added the line tool and dashed line tool to the tool bar
+
+commit 049ba8832c7780f260b8d93c127c26b29e3f61cc
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 18:35:15 2023 +0000
+
+    Icon for dashed line tool
+
+commit 819e7f0248aead7c8d804164c0e5c57126c743ec
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 18:11:47 2023 +0000
+
+    Commented the line tool class.
+
+commit 508f2059537bf39c42f29d191294b5887f87a8ce
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 18:05:16 2023 +0000
+
+    Created and added the line tool
+
+commit 97d1ddc96fa7325a372632dfa64be85c16ec7ce2
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 18:03:55 2023 +0000
+
+    Added code to the mouseClicked function. This makes the line tool work and fixes where you would have to drag to make the fill tool execute, you now only have to click.
+
+commit 4864cb0a1a281e802ee1c77a00d02ad32afac87d
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 13:13:34 2023 +0000
+
+    Changed fillrect to get the width and height of canvas rather than filling a maximum area
+
+commit 5463fd196fbb1c3e3549168502ceaab647a3e7a0
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 13:09:09 2023 +0000
+
+    Created and added line icon for the line tool
+
+commit 3aa217a4bc42931b8ff0e628803251dc58569ac0
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 12:52:22 2023 +0000
+
+    Added the fill tool to the tool bar. The Background colour tool is still on there to be used later when it can change the colour behind all the other layers.
+
+commit 70b0ec8dc5e96b701710568b2c7d84a42bac3df9
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 12:50:30 2023 +0000
+
+    Created the fill tool - fill rect could be changed to get the size of the canvas rather than a max number (2000px)
+
+commit d205fa79cda76a88fe7e382d4a5c944e8338743b
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Wed Feb 1 12:48:18 2023 +0000
+
+    Added an icon to be used for the fill tool
+
+commit af8b25569e8303941dea38be4c136679e72994c8
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Wed Feb 1 10:41:51 2023 +0000
+
+    Add checkered transparency background to ColorDisplay, rename panel to ColorDisplay, change all spelling of colour to color, remove MyPanel
+
+commit 6d13d4ac258175937ba3d5b66e06fe33de80dd1b
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 22:30:03 2023 +0000
+
+    Fix bug of color/brush size not being updated for different layers, the painter should request the brush size/color from the color selector when needed
+
+commit 0877bf1fb76e60c0f7cb557c709ee168c2b3b4ec
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 22:14:59 2023 +0000
+
+    Add support for unlimited layers (but cap at 10 for now d since there is no scrollbar, add active tool button coloring
+
+commit e5fa31cb42c3fa5f44fb7b34a746c4594e14eded
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 21:36:08 2023 +0000
+
+    Add undo, redo funtionality to menu items, improve editorgui to handle different width/height canvas, improve layerselector to handle unlimited layerButtons
+
+commit 37d1e4f572994d501d08b99a13a6199f1d0cb2b6
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 21:19:16 2023 +0000
+
+    Move layer selector to its own class and panel positioned EAST, fix and improve layer selector code
+
+commit 63d0f4c86f8445cee527b6c6856e46e473c4b931
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 20:25:42 2023 +0000
+
+    Move tool selector to east, brush thickness slider toto west inside ColorSelectorGUI
+
+commit af3e1dfaf22cb239679ee5bd954b09f5feeb5110
+Author: jonesh19 <h.jones20@lancaster.ac.uk>
+Date:   Tue Jan 31 18:51:48 2023 +0000
+
+    removed second menu frame
+
+commit 731fdc76358885f5bd5c1a7003c48e8da6116c43
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 18:43:36 2023 +0000
+
+    remove import
+
+commit 3ab4a8a5f898a54e38895e3a72b9a24747fe59d7
+Merge: 3f4b042 c181f81
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 18:40:55 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52 into main
+
+commit 3f4b042a277b2f1b502f9481601523f06a8f1900
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 18:40:33 2023 +0000
+
+    Start window maximized, change help text to popup
+
+commit c181f8127c798a964b2817042e2ccc18a51e30e1
+Merge: 89c3331 fb9bc37
+Author: jonesh19 <h.jones20@lancaster.ac.uk>
+Date:   Tue Jan 31 18:25:06 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52
+
+commit 89c33316a2b6c0aa4231882478b1b4586b14f695
+Author: jonesh19 <h.jones20@lancaster.ac.uk>
+Date:   Tue Jan 31 18:24:37 2023 +0000
+
+    added menu bar to the top of project frame but there is still the other menu frame atm
+
+commit fb9bc37160a3172801b84a0ea2e69b2ad9075907
+Merge: 73c07ab 21a45a2
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 18:22:15 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52 into main
+
+commit 73c07ab1cc4c31c26056c38c780deab3c8cba076
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Tue Jan 31 18:21:27 2023 +0000
+
+    Prevent undo when no previous states exist
+
+commit 21a45a227eadbe2f00139690e05e87fcda7e8865
+Author: jonesh19 <h.jones20@lancaster.ac.uk>
+Date:   Tue Jan 31 18:12:39 2023 +0000
+
+    formatted the merged panels so it looks better and is scaleable
+
+commit c8c8c486f4d50a9323d6710d02438781d0b9e702
+Merge: 4526ee2 066b5b6
+Author: Jones, Harrison (Student) <h.jones20@lancaster.ac.uk>
+Date:   Tue Jan 31 17:30:22 2023 +0000
+
+    Merge branch 'Harrison-Additions' into 'main'
+    
+    added all panels into one wondow still need to format
+    
+    See merge request scc210-2022-23/scc210-2223-grp-52!10
+
+commit 066b5b6c57ef1224bad998f55e1e1fdc3e59797e
+Merge: 1c9d9e3 4526ee2
+Author: Jones, Harrison (Student) <h.jones20@lancaster.ac.uk>
+Date:   Tue Jan 31 13:40:15 2023 +0000
+
+    Merge branch 'main' into 'Harrison-Additions'
+    
+    # Conflicts:
+    #   ToolPicker.java
+
+commit 1c9d9e3a790d8f5c3d842c0989abeccd5ed9ff84
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Tue Jan 31 13:15:46 2023 +0000
+
+    added all panels into one wondow still need to format
+
+commit 4526ee2ebe1e30902984daaa02b4478395ad1738
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Jan 30 22:17:52 2023 +0000
+
+    Add Undo and Redo buttons, add History class that stores undo and redo image stacks, make the undo and redo methods restore previous states from history
+
+commit 08e3fd318483c6dc06de16a759034ab6d198c7ff
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Fri Jan 27 15:23:07 2023 +0000
+
+    added a return function for the editors panel that can be used in project
+
+commit 74b552a5776e6a32949d770e6ce637630d519695
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 22:13:38 2023 +0000
+
+    SlUse threading to sleep in Project ensuring that swing objects are instantiated in a consistent order, fixes s errors and GUI sometimes missing. Add label to brush thickness slider
+
+commit 2d12fc66923ebf8449ec861b877e89c933f25e88
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 18:38:30 2023 +0000
+
+    Catch error stopping editor displaying, fix color preview
+
+commit 5d55969cba96bbb10fdbb7237722d630a18b91d1
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 18:17:11 2023 +0000
+
+    Create icons for each tool, scale down and display on each button, add RubberTool
+
+commit a869dd6648086945c3da39b950e47911d7e73c94
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 16:41:25 2023 +0000
+
+    Update brush size when slider moved, add BrushTool (slider controls thickness) and PencilTool (thickness of 1)
+
+commit fb71a131dddffa762b4730b30f7ef3b15928ae57
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 16:20:57 2023 +0000
+
+    Add background color tool, set active tool when a tool button is clicked
+
+commit 11af5e40995e7e68fc034a201ddaedd400042230
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 15:19:40 2023 +0000
+
+    Externalize drawing behaviour to instances of Tool to allow for custom implementation instead of a single drawing behaviour in Canvas
+
+commit 8e568315a1fec5d7c3e568eacc44c6cfb4d9bcd6
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 15:06:06 2023 +0000
+
+    Give ToolPicker list of tool objects, Put all in JToolBar with label matching tool name, Add detection to see which specific button was clicked
+
+commit f434cab1d62df85249b4242cf51b6aa35a310e7c
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 15:02:36 2023 +0000
+
+    Add DefaultTool with custom name, Improve Tool interface
+
+commit 271567d659a788d76b6b93cd57061a06349a395a
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 14:54:31 2023 +0000
+
+    Create Tool interface with drawing behaviour on mouseDragged() as a default method
+
+commit bcfbf9739557cd78f75a3e94d7369bd7e47a0d7d
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 14:52:54 2023 +0000
+
+    Create Tool interface with drawing behaviour on mouseDragged() as a default method
+
+commit 6a519a6fcdc0c52e587ddabbe24b5a0027d568b8
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Thu Jan 26 13:47:32 2023 +0000
+
+    Rename classes and add build and execute script
+
+commit d4e774f1236d157494057f583f1626efd4d419b5
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Jan 23 20:12:53 2023 +0000
+
+    Add stateChanged method to toolpicker class to get code working again
+
+commit ce11ce3f0e08b226b613483e0ec1721a80f6d7d3
+Merge: c68faee c37bc14
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Jan 23 17:52:27 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52 into main
+
+commit c68faeee10b0b736c9a88c609d88d813c091ac21
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Jan 23 17:52:00 2023 +0000
+
+    Display help text within menu window when menu option is selected, write some basic help text
+
+commit c37bc14a837a2be7566ec103d52d65af771255af
+Merge: 267ae1e b217920
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Mon Jan 23 17:29:03 2023 +0000
+
+    Merge branch 'main' of http://scc-source.lancs.ac.uk/scc210-2022-23/scc210-2223-grp-52
+
+commit 267ae1e2b72e863dbac71abd4c8aa3adb955bb1d
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Mon Jan 23 17:28:41 2023 +0000
+
+    added action listeners to the scroll bar and functionality for it in the other files
+
+commit b217920395da2d5645f115c778f1762a7e661f04
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Jan 23 17:10:56 2023 +0000
+
+    Add save as dialogue box and save at any path support, reuse last save path when doing quick save
+
+commit d35a65b1d53b527570110f4f0121c12b78975e34
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Jan 23 16:41:52 2023 +0000
+
+    Create function to merge multiple BufferedImage, merge layers before saving image
+
+commit 12990874d7b9f6aa07df5fccf566a92058909559
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Jan 23 16:06:45 2023 +0000
+
+    remove class files
+
+commit 9a8dab790202ef8c522f9f57ce4d01ab9f499421
+Author: james1236 <32351696+james1236@users.noreply.github.com>
+Date:   Mon Jan 23 16:03:25 2023 +0000
+
+    Introduce ability to save single layer of image
+
+commit 03da41abf29ee54ae8afb06c0a41020be2083feb
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Jan 20 15:29:04 2023 +0000
+
+    Example file used to test and demonstrate help menu functionality. Will need replacing with instructions of how to use the program at the end of the project.
+
+commit 976ddcdecf7fe2acc47b0ef3ef5e272a15c7306d
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Jan 20 15:27:34 2023 +0000
+
+    Started adding help menu functionality
+
+commit 37b76d3a0c2855569867d4e98225c7bbbef0f2b3
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Jan 20 15:26:20 2023 +0000
+
+    Added Menu to the main method
+
+commit 5412155748eed83eff2577901d5b19e2044a6588
+Author: hjones19 <h.jones20@lancaster.ac.uk>
+Date:   Fri Jan 20 14:51:45 2023 +0000
+
+    added actio listeners
+
+commit a91493577a627384a23c92b7f00c3542cff891ec
+Author: jonesh19 <h.jones20@lancaster.ac.uk>
+Date:   Thu Jan 19 14:19:31 2023 +0000
+
+    added the slider to the tool picker and made function for returning the value of brush size
+
+commit 3e7a955e239f396e0cd300b5df29b77b4e4fbdb2
+Merge: 22f4633 b59d4c8
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Tue Jan 17 17:50:59 2023 +0000
+
+    Merge branch 'linkedEditorColourPicker' into 'main'
+    
+    linked the editoer window with the colour selector window. also made the...
+    
+    See merge request scc210-2022-23/scc210-2223-grp-52!8
+
+commit b59d4c802ef8738d622ab6a7ef8ea8d7646aca37
+Merge: f355e54 22f4633
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Tue Jan 17 17:49:29 2023 +0000
+
+    Merge branch 'main' into 'linkedEditorColourPicker'
+    
+    # Conflicts:
+    #   ColourSelectorTestGUI.java
+    #   EditorTestGui.java
+
+commit f355e549e572d9d746388e07ca9c3d6f6ec7f2e5
+Author: sam <sam.mayhew@live.com>
+Date:   Tue Jan 17 17:36:37 2023 +0000
+
+    linked the editoer window with the colour selector window. also made the background of the editor white
+
+commit 22f463310652a7cd4d989f5e4f022d0e69fe935c
+Merge: 3aa3ca2 f6037fc
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Tue Dec 13 14:35:19 2022 +0000
+
+    Merge branch 'completed_drawing_and_layer_functionality' into 'main'
+    
+    completed basic drawing and layer functionality
+    
+    See merge request scc210-2022-23/scc210-2223-grp-52!5
+
+commit f6037fcab9f7005d673ca6b011245695822d14ce
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Tue Dec 13 14:34:28 2022 +0000
+
+    fixed bug with buffered image where it copied part of the window to the top corner. Layer functionality is also completed.
+
+commit 82f17e7e231157f9114e5de40cf1ef59d09b745d
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Tue Dec 13 14:34:05 2022 +0000
+
+    fixed bug with buffered image where it copied part of the window to the top corner. Layer functionality is also completed.
+
+commit 7c32ad40da0aaacbda3d21ea7a054483ddfa6960
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Tue Dec 13 14:33:44 2022 +0000
+
+    Delete EditorTestGui.java
+
+commit 993a211af0d4586163e0a8f16f197fc9129ada43
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Tue Dec 13 14:33:38 2022 +0000
+
+    Delete DrawGraphics.java
+
+commit 3aa3ca25c1187f4d53f62ac8d50db2d2fd96cec6
+Author: jonesh19 <j.jones20@lancaster.ac.uk>
+Date:   Fri Dec 9 16:48:41 2022 +0000
+
+    added the tool picker and buttons in grid layout
+
+commit af5f75ba5e77f08a45ba04477d5a57df79bb6603
+Merge: e70ed8e 836ecd7
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Fri Dec 9 16:12:18 2022 +0000
+
+    Merge branch 'editro_with_layers' into 'main'
+    
+    added layers that can be drawn on separately. little bug with that is copies section of the screen onto top left corner
+    
+    See merge request scc210-2022-23/scc210-2223-grp-52!4
+
+commit 836ecd7ad903d2d461e8d6ff9dc53a823244d25d
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Fri Dec 9 16:10:55 2022 +0000
+
+    same message as last one. file didnt update
+
+commit b89dff0583ab5ace29ba0f75a5fa047e353cfe2b
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Fri Dec 9 16:10:29 2022 +0000
+
+    Delete DrawGraphics.java
+
+commit af7ec8e16fcbaf19609ec853efecb83e55a5c4e3
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Fri Dec 9 16:08:45 2022 +0000
+
+    added layers that can be drawn on seperately. little bug with that is coppies part of the screen in the top left corner.
+
+commit e70ed8e80789dd9db3e6b2b7422880f75f9fd5c6
+Merge: 05f5d6d 236cd9a
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Mon Dec 5 11:42:45 2022 +0000
+
+    Merge branch 'fixed_colour_picker' into 'main'
+    
+    fixed buggy alpha colour. it jumps a bit when changing it, but the whole...
+    
+    See merge request scc210-2022-23/scc210-2223-grp-52!3
+
+commit 236cd9a14d39895a3987420c3d8849415d4ece0c
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Mon Dec 5 11:42:19 2022 +0000
+
+    fixed alpha colour chnaging...
+
+commit 58b987a90e2c6c120a27608dd5fa16f09ee0a702
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Mon Dec 5 11:41:45 2022 +0000
+
+    fixed buggy alpha colour. it jumps a bit when changing it, but the whole display panel now chnages colour
+
+commit 30d14318f7640391640b9c5871c9167baeb01642
+Author: sam <sam.mayhew@live.com>
+Date:   Mon Dec 5 11:39:17 2022 +0000
+
+    testen
+
+commit ff85a900f8bd589e083206091777c8fe176b6f99
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Mon Dec 5 11:30:40 2022 +0000
+
+    Delete ColourSelectorTestGUI.java
+
+commit 05f5d6db6f52c15e82133c1d8d347a92820f7446
+Merge: 06e400e 4a0996f
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Fri Dec 2 16:15:26 2022 +0000
+
+    Merge branch 'colour_picker_test_gui' into 'main'
+    
+    created test GUI for colour selector. RGB value update in real time, alpha is a little buggy
+    
+    See merge request scc210-2022-23/scc210-2223-grp-52!2
+
+commit 4a0996f3a197d1a4ac5ee93c4f1cc31cca0b708a
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Fri Dec 2 16:14:32 2022 +0000
+
+    created test GUI for colour selector. RGB value update in real time, alpha is a little buggy
+
+commit 06e400ef154dfddb1f58c504c8d5c07c73e13967
+Author: Gardner, James (gardne19) (Student) <j.gardner8@lancaster.ac.uk>
+Date:   Fri Dec 2 16:02:34 2022 +0000
+
+    added file for basic menu ui
+
+commit c32a6ae06fe02b9bc89929711580685596072da4
+Merge: 710b1ec 14ca37c
+Author: Mayhew, Sam (Student) <s.mayhew@lancaster.ac.uk>
+Date:   Fri Dec 2 11:11:18 2022 +0000
+
+    Merge branch 'basic_drawing_functionality' into 'main'
+    
+    added files for basic drawing functionality. Run DrawGraphics.java
+    
+    See merge request scc210-2022-23/scc210-2223-grp-52!1
+
+commit 14ca37c033b05ad5bb613dc8dee953e31fdb188d
+Author: sam <sam.mayhew@live.com>
+Date:   Fri Dec 2 11:02:22 2022 +0000
+
+    added files for basic drawing functionality. Run DrawGraphics.java
+
+commit 710b1ec8da4df2be18301ff42a53ce3fcd6cf00a
+Author: Dempster, Paul <p.dempster@lancaster.ac.uk>
+Date:   Mon Nov 21 16:51:00 2022 +0000
+
+    Initial commit
